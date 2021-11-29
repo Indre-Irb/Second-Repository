@@ -1,9 +1,8 @@
 console.log("Second try")
 
-const button = document.querySelector(".button")
+const button = document.querySelector("button")
 const box = document.querySelector(".box")
 
 button.onclick = () => {
-    box.innerHTML += `<div>Geros dienos</div>`
-
+    box.innerHTML += `<h4>Geros dienos</h4>`
 }
